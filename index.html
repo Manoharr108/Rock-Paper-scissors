@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Rock-Paper-Scissors</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/premium-vector/rock-boulder-grey-gravel-stone-natural-element_543062-3378.jpg" class="card-img-rock" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rock</h5>
+              <p class="card-text">This beats only scissors!!</p>
+              <a href="#" class="btn btn-primary" id="rck" onclick="useRock()">Use</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://banner2.cleanpng.com/20180218/oze/kisspng-paper-scroll-free-content-clip-art-parchment-background-image-5a89aeae963c79.4551227715189725906154.jpg" class="card_img_paper" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paper</h5>
+              <p class="card-text">This beats only Rock!!</p>
+              <a href="#" class="btn btn-primary" id="ppr" onclick="usePaper()">Use</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shutterstock.com/shutterstock/videos/1099056671/thumb/5.jpg?ip=x480" class="card-img-scissors" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Scissors</h5>
+              <p class="card-text">This beats only Paper!!.</p>
+              <a href="#" class="btn btn-primary" id="sci" onclick="useScissors()">Use</a>
+            </div>
+          </div>
+        </div>
+        <div class="table">
+        <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+  table.GeneratedTable {
+    width: 50%;
+    background-color: #bd1f1f;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: rgb(186, 29, 29);
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #ffcc00;
+  }
+  </style>
+  
+  <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+  <table class="GeneratedTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Computer</td>
+        <td><span id="p_score"></span></td>
+      </tr>
+      <tr>
+        <td>Player</td>
+        <td id="c_score"></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Codes by Quackit.com -->
+  
+  
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="mec.js"></script>
+    <div class="reset">
+        <button type="button" class="btn btn-danger" onclick="dlte()">Reset</button>
+    </div>
+    
+</body>
+</html>

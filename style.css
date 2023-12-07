@@ -1,0 +1,31 @@
+*{
+   background-color: bg-secondary-subtle; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: auto;
+    margin-top: 150px;
+    background-color: #abc787!important;
+    border: 1.5px solid #abc787!important;
+}
+.card_img_paper{
+    height: 10.5rem;
+}
+.table{
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table.GeneratedTable td, table.GeneratedTable th{
+    border-color: green!important;
+
+}
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
