@@ -20,12 +20,19 @@
     align-items: center;
     justify-content: center;
 }
-table.GeneratedTable td, table.GeneratedTable th{
-    border-color: green!important;
-
-}
 .reset{
     display: flex;
     align-items: center;
     justify-content:center ;
+}
+.progress{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background: red!important;
+}
+
+.progress-bar{
+    width: 0%;
 }
